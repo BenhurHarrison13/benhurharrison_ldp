@@ -8,7 +8,7 @@ header {
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
-    text-align: center;
+    	text-align: center;
 }
 
 h1 {
@@ -20,8 +20,8 @@ nav ul {
 	font-weight:bold;
 	margin-top:20px ;
 	padding: 0;
-    display:flex;
-    justify-content: space-evenly;
+    	display:flex;
+    	justify-content: space-evenly;
 }
 
 nav ul li {
@@ -60,9 +60,9 @@ body {
 }
 .about{
 	font-weight:bold;
-    font-family: Georgia;
-    display:flex;
-    flex-direction:column;
+    	font-family: Georgia;
+    	display:flex;
+    	flex-direction:column;
 	align-items: center;
 	margin-top: 250px;
 	flex-wrap:wrap;
