@@ -84,3 +84,8 @@ body {
 	gap:1em;
 	margin-top: 10px;
 }
+
+.imag{
+	display:flex;
+	flex-basis: 25%;
+}
