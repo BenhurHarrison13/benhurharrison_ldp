@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Zemoso Restaurant</title>
+    <link href="style.css" rel="stylesheet">  
+</head>
+<body onload="page_load()">
+    <div id="tables">
+        <div id="header">
+            <h3>Tables</h3> 
+            <input type="search" id="table_search" oninput = "search_table()" placeholder="Search by table number">
+        </div>
+         <div class="table_list">
+
+         </div>
+    </div>
+    <div id="menu">
+        <div id="header">
+            <h3>Menu</h3>
+
+            <input type="search" id='item_search' oninput="search_item()" placeholder="Search menu...">
+        </div>
+
+        <div class="menu_list">
+
+        </div>
+    </div>
+    <div id="popUp" class="popUp">
+        <div class="popUp-content">
+            <div id="popUp-close">
+                <button onclick="closepopUp()" id="button-clsoe">X</button>
+            </div>
+            <div id="popUp-table-name">
+
+            </div>  
+            <div>
+                <table id="table-info-items">
+                  
+                </table>
+                <div id="popUp-footer">
+
+                </div>
+                <div id="generate-bill">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
